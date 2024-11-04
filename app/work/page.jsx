@@ -32,7 +32,7 @@ const projects = [
     ],
     image: "/assets/work/thumb1.png",
     github: "https://github.com/mujibqoribulll/scroll-view-reanimated",
-    live: "www.padiumkm.id",
+    live: "https://padiumkm.id/",
   },
   {
     num: "02",
@@ -47,7 +47,7 @@ const projects = [
     ],
     image: "/assets/work/thumb1.png",
     github: "https://github.com/mujibqoribulll/scroll-view-reanimated",
-    live: "www.padiumkm.id",
+    live: "https://padiumkm.id/",
   },
   {
     num: "03",
@@ -62,7 +62,7 @@ const projects = [
     ],
     image: "/assets/work/thumb1.png",
     github: "https://github.com/mujibqoribulll/scroll-view-reanimated",
-    live: "www.padiumkm.id",
+    live: "https://padiumkm.id/",
   },
   {
     num: "04",
@@ -77,7 +77,7 @@ const projects = [
     ],
     image: "/assets/work/thumb2.png",
     github: "https://github.com/mujibqoribulll/scroll-view-reanimated",
-    live: "www.padiumkm.id",
+    live: "https://padiumkm.id/",
   },
   {
     num: "05",
@@ -92,7 +92,7 @@ const projects = [
     ],
     image: "/assets/work/thumb3.png",
     github: "https://github.com/mujibqoribulll/scroll-view-reanimated",
-    live: "www.padiumkm.id",
+    live: "https://padiumkm.id/",
   },
 ];
 
@@ -141,7 +141,7 @@ const Work = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                <Link href={project.live}>
+                <Link href={`${project.live}`}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
