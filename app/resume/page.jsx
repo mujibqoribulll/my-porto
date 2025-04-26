@@ -24,7 +24,7 @@ const Resume = () => {
   const about = {
     title: "About me",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis sint ipsum dignissimos, quibusdam blanditiis molestiae explicabo.",
+      "I am Qoribul Mujib, a passionate Frontend Developer from Indonesia, specializing in building modern and responsive web applications.",
     info: [
       {
         filedName: "Name",
@@ -57,7 +57,7 @@ const Resume = () => {
     icon: "/assetsresume/badge.svg",
     title: "My experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis sint ipsum dignissimos, quibusdam blanditiis molestiae explicabo.",
+      "I am a passionate and dedicated developer with extensive experience in mobile and web development. I have worked as a Mobile Developer, Full Stack Developer, and Frontend Developer, building high-quality applications for a variety of platforms. Throughout my career, I have focused on creating efficient, scalable, and user-centered solutions while continuously improving my technical skills. I am committed to delivering impactful digital products and always strive to stay updated with the latest technologies and best practices in the industry.",
     items: [
       {
         company: "PT TELKOM",
@@ -86,27 +86,17 @@ const Resume = () => {
     icon: "/assets/resume/cap.svg",
     title: "My education",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis sint ipsum dignissimos, quibusdam blanditiis molestiae explicabo.",
+      "Throughout my academic journey, I have built a strong foundation in information technology and computer networking. My education has equipped me with both theoretical knowledge and practical skills, preparing me to tackle real-world challenges in software development and IT infrastructure.",
     items: [
       {
-        institution: "Tech Solution Inc.",
-        degree: "Full Stack Developer",
-        duration: "2022 - Present",
+        institution: "Universitas Komputer Indonesia",
+        degree: "Teknik Informatika",
+        duration: "2016 - 2020",
       },
       {
-        institution: "Tech Solution Inc.",
-        degree: "Full Stack Developer",
-        duration: "2022 - Present",
-      },
-      {
-        institution: "Tech Solution Inc.",
-        degree: "Full Stack Developer",
-        duration: "2022 - Present",
-      },
-      {
-        institution: "Tech Solution Inc.",
-        degree: "Full Stack Developer",
-        duration: "2022 - Present",
+        institution: "SMK TI Pembangunan",
+        degree: "Teknik Komputer Jaringan",
+        duration: "2014 - 2016",
       },
     ],
   };
@@ -114,7 +104,7 @@ const Resume = () => {
   const skills = {
     title: "My skills",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis sint ipsum dignissimos, quibusdam blanditiis molestiae explicabo.",
+      "Over the years, I have developed a strong proficiency in modern web development technologies.  I am passionate about building clean, scalable, and user-focused digital solutions.",
     skillList: [
       {
         icon: <FaHtml5 />,
@@ -184,9 +174,9 @@ const Resume = () => {
           </TabsList>
           <div className="min-h-[70vh] w-full">
             <TabsContent value="experience" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+              <div className="flex flex-col gap-[30px] text-center xl:text-justify">
                 <h3 className="text-4xl font-bold">{experiance?.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className=" text-white/60 mx-auto xl:mx-0">
                   {experiance?.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -213,9 +203,9 @@ const Resume = () => {
               </div>
             </TabsContent>
             <TabsContent value="education" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+              <div className="flex flex-col gap-[30px] text-center xl:text-justify">
                 <h3 className="text-4xl font-bold">{education?.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className=" text-white/60 mx-auto xl:mx-0">
                   {education?.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -243,9 +233,9 @@ const Resume = () => {
             </TabsContent>
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <div className="flex flex-col gap-[30px] text-center xl:text-justify">
                   <h3 className="text-4xl font-bold">{skills?.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  <p className=" text-white/60 mx-auto xl:mx-0">
                     {skills?.description}
                   </p>
                 </div>
@@ -273,11 +263,11 @@ const Resume = () => {
             </TabsContent>
             <TabsContent
               value="about"
-              className="w-full text-center xl:text-left"
+              className="w-full text-center xl:text-justify"
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about?.title}</h3>
-                <p className="max-w-[600px]">{about?.description}</p>
+                <p className="">{about?.description}</p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[660px] mx-auto xl:mx-0">
                   {about?.info?.map((item, index) => {
                     return (

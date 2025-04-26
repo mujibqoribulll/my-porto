@@ -8,11 +8,11 @@ const Socoials = (props) => {
     const socials = [
         {
             icon: <FaGithub />,
-            path: '/',
+            path: 'https://github.com/mujibqoribulll',
         },
         {
             icon: <FaLinkedin />,
-            path: '/',
+            path: 'https://www.linkedin.com/in/qoribulmujib/',
         },
         {
             icon: <FaYoutube />,
@@ -28,7 +28,7 @@ const Socoials = (props) => {
         <div className={containerStyles}>
             {
                 socials.map((social, index) => (
-                    <Link href={social?.path} key={index} className={iconStyles}>
+                    <Link href={social?.path} key={index} className={iconStyles} target='_blank'>
                         {social?.icon}
                     </Link>
                 ))
